@@ -1,0 +1,11 @@
+/*CSS Background Example by using svg*/
+.background {
+    background-image: url('image.svg');
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    /*Image poori ki poori dikhni chahiye ; Side me empty space aa sakta hai*/
+    background-repeat: no-repeat;
+    /*Image sirf ek baar dikhni chahiye
+    Repeat (tile) nahi hogi*/
+}

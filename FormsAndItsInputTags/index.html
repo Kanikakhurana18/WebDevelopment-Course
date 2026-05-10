@@ -1,0 +1,51 @@
+<!-- The <input> tag is commonly used to create form controls. The attributes of this tag define the control's behavior.
+
+<input type="" name="" value="">
+
+The "type" attribute specifies the type of input control (e.g., text, password, checkbox).
+
+The "name" attribute is used for identifying the control, especially when the data is sent to the server.
+
+The "value" attribute sets a default value for the control, which the user can overwrite. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+  <div>
+    <label for="username">Enter username</label>
+    <input type="text" name="username" placeholder="Enter your username" required autofocus>
+  </div>
+  <div>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+  </div>
+  <div>
+     <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">Subscribe to newsletter</label>
+  </div>
+  <div>
+    label for="comment">Enter your comment</label>
+    <br>
+    <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+  </div>
+  <div>
+    <select name="fruits">
+      <option value="banana">Banana</option>
+      <option value="cherry">Cherry</option>
+      <option value="apple">Apple</option>
+    </select>
+  </div>
+  <div>
+    <input type="submit" value="submit">
+  </div>
+</form>
+</body>
+</html>

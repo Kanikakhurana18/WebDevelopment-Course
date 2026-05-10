@@ -1,0 +1,15 @@
+.red{
+  color: red;/*Class is used in CSS by (.)*/
+}
+.pink{
+  color: darkorchid;
+}
+.background{
+  background-color: lightblue;
+}
+#firstdiv{
+  color: black; /*Id has more priority than class, id is used in CSS by (#).Also id cannot strt with number*/
+}
+#seconddiv{
+  color: orangered;
+}
