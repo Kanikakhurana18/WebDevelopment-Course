@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Property</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    .box{
+      border: 2px solid maroon;
+      display: inline-block;
+      margin: 9px;
+      padding: 10px;
+    }
+    .box1{
+      /* display: none; both space and box remove*/ 
+      /* visibility: hidden; only box remove sapce remains*/
+    }
+  </style>
+</head>
+<body>
+   <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/display -->
+  <div class="box box1">
+    This is a box
+  </div>
+  <div class="box">
+    Also a box
+  </div>
+  <span>I am a </span>
+  <span>human</span>
+</body>
+</html>

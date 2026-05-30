@@ -10,9 +10,17 @@
       background-color: yellow;
       color: red;
     }
-    div>p:not(:first-child) {
+    /* div>p:not(:first-child) {
       background-color: blue;
       color: white;
+    } */
+    p{
+      background-color: blue;
+      color: white;
+    }
+     div p:nth-child(3){   /*div ke andar 2nd child pe p hai to appply kr dega */
+      background-color: green;
+      color: white;   
     }
   </style>
 </head>

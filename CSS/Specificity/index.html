@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Specificity & Cascade</title>
    <style>
         /* The specificity of inline element/attribute like p, div,h1 selector is 1  */
         h1 {
@@ -27,19 +27,22 @@
 
         /* The specificity of class selector is 10  */
         .cred {
-            color: red !important; /*As i have wriiten important*/
+            color: red !important; /*As i have written important*/
         }
 
-        /* The specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41  */
+        /* The specificity of this selector is 1 + 10 + 10 + 10(attribute) + 10(pseudo) = 41  */
         a.kanikaclass.rohan-class[href]:hover {
-            color: blueviolet;
+            color: greenyellow; /*only while hovering*/
         }
     </style>
 </head>
 <body>
    <div>
         <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
-        <h2></h2>
+        <h2 data-x="a">Hi there, lets learn css</h2>
+        <a href="#" class="kanikaclass rohan-class">
+            LINK
+        </a>
     </div>
 </body>
 </html>
