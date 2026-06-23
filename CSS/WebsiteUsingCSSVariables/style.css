@@ -1,0 +1,71 @@
+/* CSS Variables */
+:root{
+  --color:#fcff63;
+  --seccolor:#7df72b;
+  --backgroundColor:#f012b8;
+  --padding:15px 50px;/*padding: vertical horizontal; ie (Top and bottom =15px) and (Left and right =50px)*/
+   --text-color: #333;
+    --card-color: #ffffff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;/*element ki total width aur height ke andar hi padding aur border count honge.*/
+}
+body{
+  font-family: Arial, sans-serif;
+  background-color: var(--backgroundColor);
+  color: var(--text-color);
+}
+nav{
+  background-color: var(--color);
+  color: black;
+  padding: var(--padding);
+  display: flex;
+  justify-content: space-between;/*Pehla item extreme left;Last item extreme right ;Beech ki sari space distribute ho jati hai*/
+  align-items: center;/*Dono vertically center mein aa jaate hain.*/
+}
+nav ul{
+  display: flex;
+  gap: 20px;/*Flexbox ya Grid ke items ke beech mein spacing dene ke liye use hota hai.*/
+  list-style: none;
+}
+.section{
+  text-align: center;
+  padding: var(--padding);
+}
+section h2{
+  color: var(--color);
+  margin-bottom: 15px;
+}
+section p{
+  margin-bottom: 20px;
+}
+button{
+  background-color: var(--seccolor);
+  border: none;
+  color: #ffffff;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: var(--color);
+  color: var(--text-color);
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+.card{
+  background-color: var(--card-color);
+  padding: var(--padding);
+  width :180px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow:0 8px 16px rgba(0,0,0,0.3);
+  border-top: 5px solid var(--seccolor);/*Card ke sirf upar wale border ko style karti hai.*/
+   flex-wrap: wrap; /*allows flex items to move onto the next line when there isn't enough space in the current row. */
+}
