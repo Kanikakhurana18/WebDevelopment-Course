@@ -1,11 +1,11 @@
 /* CSS Variables */
 :root{
-  --color:#fcff63;
-  --seccolor:#7df72b;
-  --backgroundColor:#f012b8;
+  --color:#e70ac2;
+  --seccolor:#ec18d0;
+  --backgroundColor:#e8b1ec;
   --padding:15px 50px;/*padding: vertical horizontal; ie (Top and bottom =15px) and (Left and right =50px)*/
-   --text-color: #333;
-    --card-color: #ffffff;
+   --text-color: black;
+    --card-color: rgb(241, 241, 108);
 }
 *{
   margin: 0;
@@ -21,7 +21,7 @@ nav{
   background-color: var(--color);
   color: black;
   padding: var(--padding);
-  display: flex;
+  display: flex; /*OR display: inline;(ek line mai lane ke liye list ke elem ko)*/
   justify-content: space-between;/*Pehla item extreme left;Last item extreme right ;Beech ki sari space distribute ho jati hai*/
   align-items: center;/*Dono vertically center mein aa jaate hain.*/
 }
@@ -29,6 +29,12 @@ nav ul{
   display: flex;
   gap: 20px;/*Flexbox ya Grid ke items ke beech mein spacing dene ke liye use hota hai.*/
   list-style: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+nav li a{
+  text-decoration: none;
+  color: var(--text-color);
 }
 .section{
   text-align: center;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More on CSS Selectors</title>
+  <style>
+    .box:first-child{ /*not boxes as boxes ka first child body hoga*/
+      background-color: aquamarine;
+    }
+    .box::first-line{
+      background-color: red;
+    }
+    .boxes *{
+      color: blue;
+      border: 2px solid black;
+    }
+    p,a,.box,[data-color="primary"]{ /*Attribute selector also grouping*/
+      padding-top: 45px;
+    }
+    .box:nth-child(even){
+      background-color: blueviolet;
+    }
+    .box:nth-last-child(1){ /*niche se jo first hai wo*/
+      background-color: pink;
+    }
+    /*Before and After are called pseudo elements they are not selectors*/
+    .boxes::before{/*Element content ko CSS ke through dynamically insert kiya hai*/
+      content: "Kanika is learning web dev";
+      font-size: 25px;
+    }
+    .boxes::after{
+      content: "Keep doing it!";
+      font-size: 25px;
+      color: purple;
+      font-style: italic;
+    }
+    ::selection{ /*Sare parent ke liye kaam krega*/
+      color: yellowgreen;
+      background-color: black;
+    }
+    .box::first-letter{
+      color: black;
+      font-size: 45px;
+    }
+    input::placeholder{
+      color: gray;
+    }
+    input { /*input ke andar jo user type karega uska text aur placeholder text, dono par effect karta hai.*/
+    font-size: 20px;
+    padding: 10px;
+}
+  </style>
+</head>
+<body>
+  <div class="boxes">
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolores ducimus praesentium dolorem corporis deleniti odio officiis consequatur ab amet, adipisci fugit ipsum odit dolor sit. Quibusdam, eligendi sint molestiae temporibus repellat accusantium blanditiis officiis commodi rem libero? Nam ullam consequuntur iusto facere eum enim rem fugit architecto cum qui, labore itaque sequi pariatur repellendus! Laboriosam magnam iure numquam ratione alias explicabo obcaecati perspiciatis incidunt, aliquam expedita est nulla, eligendi sint officiis quae, repudiandae inventore. Saepe, aut! Natus incidunt accusamus iusto recusandae itaque consequuntur nulla repudiandae veniam, error facere, voluptatibus nobis id cumque facilis illo? Minus excepturi alias perferendis odio?</div>
+    <div class="box">Hey I am a box</div>
+
+    <div data-color= "primary" class="box">Hey I am a box</div> <!--attribute selector-->
+  </div>
+  <input type="text" placeholder="Type your name here">
+</body>
+</html>
