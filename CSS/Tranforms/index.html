@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Transforms</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .box{
+      height: 50px;
+      width: 50px;
+      background-color: bisque;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       /* transform: rotate(0.5turn); 180 degre as 1 turn=360 degree */
+       /* transform: rotateX(400deg); */
+       /* transform: rotateY(95deg); */
+
+       /* transform: scaleX(1.6); */
+
+       /* transform: skew(5deg); only in x and y dimension allowed not in z dimnensions */
+
+       /* transform: translateX(-100%); used to hide the navbar */
+
+       transform: translateY(100%) skewX(40deg) translateX(45%);
+
+       transform-origin:0% 0% ;
+       /* transform: rotate(400deg); */
+    }
+    .container{
+      height: 100vw;
+      width: 80vh;
+      border:2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">box</div>
+  </div>
+</body>
+</html>

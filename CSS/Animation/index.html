@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Animation</title>
+  <style>
+    .container{
+      background-color: blue;
+      height: 80vh;
+      width: 30vw;
+    }
+    .box{
+      height: 45px;
+      width: 34px;
+      /* animation-name: kanika;
+      animation-duration: 3s;
+      animation-iteration-count: 2;
+      animation-timing-function: ease-out;
+      animation-delay: 2s;
+      animation-direction: reverse;
+      animation-play-state: paused; */
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+      animation: kanika 5s ease-in 1 reverse forwards,
+                 kanika2 3s ease-in-out 3s 1;
+    }
+
+    @keyframes kanika {
+      from{
+        background-color: red;
+      }
+      to{
+        transform: translateX(1000px);
+        background-color: yellow;
+      }
+    }
+    @keyframes kanika2 {
+      0%{transform: rotate(100deg);}
+      20%{transform: rotate(200deg);}
+      50%{transform: rotate(220deg);}
+      80%{transform: rotate(300deg);}
+      100%{transform: rotate(310deg);}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      Box
+    </div>
+  </div>
+</body>
+</html>
