@@ -46,4 +46,4 @@ a.forEach((element, index, arr)=> {
 // console.log(a.reduce(red))
 
 //8. Array from  used to create array from any other object
-Array From("Kanika Khurana")
+console.log(Array.from("Kanika Khurana"))
