@@ -14,7 +14,7 @@ function main(){
         return true
         
     } catch (error) {
-        console.log("Error aa gaya bhai")
+        console.log("Error has come")
         return false
     } 
     finally{

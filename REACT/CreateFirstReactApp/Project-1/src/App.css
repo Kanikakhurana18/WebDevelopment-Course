@@ -1,0 +1,36 @@
+nav{
+  width: 100%;
+  height: 15vh;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.hero{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.footer{
+  width: 100%;
+  height: 15vh;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25x;
+}
