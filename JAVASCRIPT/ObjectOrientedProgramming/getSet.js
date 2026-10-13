@@ -20,7 +20,7 @@ class User {
   }
   
   let user = new User("John");
-  console.log(user.name); // John
+  console.log(user.name); // Radha
   
-  user.name = "Harry" // Name is too short.
+  user.name = "Kanika" // Name is too short.
   console.log(user.name)

@@ -1,0 +1,20 @@
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px yellow;
+    align-items: center;
+}
+.card h1{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    display: block;
+}
+.card img{
+    width: 100%;
+}

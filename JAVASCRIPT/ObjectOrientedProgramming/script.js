@@ -1,6 +1,6 @@
 // let obj = {
 //     a: 1,
-//     b: "Harry"
+//     b: "Kanika"
 // }
 
 // console.log(obj)
@@ -45,5 +45,5 @@ class Lion extends Animal {
 let a = new Animal("Bunny");
 console.log(a)
 
-let l = new Lion("Shera")
+let l = new Lion("Simba")
 console.log(l)
