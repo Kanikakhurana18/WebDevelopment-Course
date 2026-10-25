@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.test {
+  color: #ff5733;
+  background-color: #7c3aed;
+}
