@@ -1,60 +1,125 @@
-# Web Development Course
+# Web Development Journey 🚀
 
-This repository contains my web development learning journey, practice work, and projects created while learning and improving my web development skills.
+Welcome to my **Web Development Course Repository**! This repository documents my journey of learning web development through hands-on practice, coding exercises, and projects.
 
-## 🚀 Technologies
+I'm a **B.Tech CSE student (2027 batch)** building my skills in frontend development, backend development, databases, and full-stack web applications.
 
-### Currently Learning / Completed
+## 🛠️ Tech Stack
+
+### Frontend
+
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6+)
 - DOM Manipulation
+- React.js
+- Tailwind CSS
 - Responsive Web Design
 
-### Upcoming
-- Advanced JavaScript
-- React.js
+### Backend
+
 - Node.js
 - Express.js
-- Backend Development
-- Databases
-- Full-Stack Web Development
+- REST APIs
+- Middleware and HTTP Status Codes
+- Authentication using JWT
+- Cookie-based Authentication
 
-## 📂 Projects
+### Database
 
-This repository includes various web development projects and practice work, including:
+- MongoDB
+- Mongoose
 
-- Netflix Website Clone
-- YouTube Card Replica
-- UltraEdit Website Replica
+### Tools
+
+- Git & GitHub
+- VS Code
+- npm
+
+## 📂 Repository Structure
+
+| Folder            | Description                                 |
+| ----------------- | ------------------------------------------- |
+| `HTML/`           | HTML fundamentals and practice              |
+| `CSS/`            | Styling, layouts, and CSS practice          |
+| `JAVASCRIPT/`     | JavaScript concepts and exercises           |
+| `REACT/`          | React learning and practice                 |
+| `TailwindCSS/`    | Utility-first CSS styling                   |
+| `NODE.js/`        | Node.js fundamentals and server development |
+| `MongoDB/`        | Database concepts and practice              |
+| `AUTHENTICATION/` | Full-stack authentication project           |
+
+## 💻 Projects & Practice
+
+Some of the projects and exercises included in this repository are:
+
 - Hacking Simulator
 - Business Name Generator
 - Faulty Calculator
 - Random Color Generator using DOM
-- Layout Design
-- CSS Variables Website
-- Card Replica
-- HTML, CSS and JavaScript Practice
+- CSS Layouts and Variables
+- React practice projects
+- Node.js and Express server exercises
+- Frontend and backend integration
+- **Authentication Web Application**
 
-## 🎯 Learning Goals
+## 🔐 Authentication Project
 
-- Build strong fundamentals in web development
-- Improve JavaScript and problem-solving skills
-- Learn React.js and modern frontend development
-- Learn backend development and APIs
-- Work with databases
-- Build complete full-stack web applications
+A full-stack authentication application built with React,
+Node.js, Express.js and MongoDB.
 
-## 📈 Progress
+**Key concepts being developed:**
 
-- [x] HTML
-- [x] CSS
-- [ ] JavaScript
-- [ ] React.js
-- [ ] Node.js & Express.js
-- [ ] Databases
-- [ ] Full-Stack Projects
+- User signup and login
+- Password hashing using bcrypt
+- JWT-based authentication
+- HTTP-only cookies
+- Protected API routes using authentication middleware
+- User data retrieval from MongoDB
+- Frontend-backend communication using Axios
+- CORS configuration and credential handling
 
-## 👩‍💻 About
+**Technologies:** React.js, Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, Axios, and cookies.
 
-This repository is maintained as part of my journey to learn web development through hands-on practice, projects, and continuous improvement.
+### Login
+![Login Page](./AUTHENTICATION/screenshots/login.png)
+
+### Signup
+![Signup Page](./AUTHENTICATION/screenshots/signup.png)
+
+### Home
+![Home Page](./AUTHENTICATION/screenshots/home.png)
+
+## 📈 Learning Progress
+
+- [x] HTML and CSS fundamentals
+- [x] JavaScript fundamentals and DOM manipulation
+- [x] React.js fundamentals and practice
+- [x] Tailwind CSS
+- [x] Node.js and Express.js fundamentals
+- [x] MongoDB fundamentals
+- [x] Connecting frontend with backend
+- [ ] Complete and thoroughly test the authentication workflow
+- [ ] Build and deploy more full-stack applications
+- [ ] Strengthen Data Structures and Algorithms
+- [ ] Learn advanced backend concepts and improve application security
+
+## 🎯 Goals
+
+- Build responsive and user-friendly web applications.
+- Develop strong frontend and backend skills.
+- Understand authentication, APIs, and database integration.
+- Build practical projects that solve real problems.
+- Prepare for software development internships and opportunities.
+
+## 👩‍💻 About Me
+
+I'm Kanika Khurana, a B.Tech Computer Science student from the **2027 batch**, continuously learning and building projects to strengthen my software development skills.
+
+I believe in learning by building, debugging, and improving one project at a time.
+
+**Current focus:** React.js, Node.js, Express.js, MongoDB, authentication, and full-stack development.
+
+---
+
+⭐ Thanks for visiting my repository! Feel free to explore my projects and follow my learning journey.
